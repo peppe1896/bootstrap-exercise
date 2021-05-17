@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Demo</title>
+        <meta name="keywords" content="bootstrap, demo">
+        <meta name="description" content="Bootstrap demo website">
+        <meta name="viewport" content="width=device-width">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+        <link href="css/main.css" type="text/css" rel="stylesheet">
+        <script src="js/main.js" type="text/javascript"></script>
+    
+    </head>
+        
+    <body>
+        <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#">Home</a>
+            <button 
+                    class="navbar-toggler"
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                <span class="navbar-toggler-icon">
+                    
+                </span>
+            </button>
+            <div class="collapse navbar-collapse"
+                 id="navbarSupportedContent">
+                <ul class="navbar-nav mr-4">
+                    <li class="nav-item">
+                        <a href="#about-me" data-value="about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" data-value="portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#team" data-value="team" class="nav-link">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#post" data-value="post" class="nav-link">Post</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" data-value="contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </nav>
+        
+        <header class="header">
+            <div class="overlay">
+                <div class="container">
+                    <div class="description">
+                        <h1>Welcome to my Website</h1>
+                        <p>Lorem ipsum</p>
+                        <button class="btn btn-outline-secondary">See more</button>
+                    </div>
+                </div>
+            </div>    
+        </header>
+        
+        <div class="container-fluid">
+            <div class="row about" id="about">
+                <div class="col-md-4">
+                    <img src="images/team.jpg" alt="John Chief Web Dev" longdesc="In a blurred natural background" class="img-fluid"/>
+                    <p class="text-center">Chief Web Dev</p>
+                </div>
+                <div class="col-md-8 desc">
+                    <h2>J. John</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis metus quis ligula accumsan scelerisque. Fusce non fringilla erat. Proin laoreet lectus eget tincidunt vestibulum. Morbi cursus tellus nec urna sagittis, eget tincidunt magna feugiat. Quisque aliquam, massa nec faucibus consectetur, nunc orci sodales lectus, non imperdiet dui ante at lectus. Vestibulum semper eget leo non imperdiet. Etiam sapien ante, pulvinar sit amet nibh non, pharetra pretium eros. Phasellus sollicitudin, turpis non elementum ultrices, nulla sapien mattis metus, et rutrum velit diam eget lectus. Nulla tincidunt velit scelerisque tellus tempus, id tincidunt erat mollis. Ut maximus lorem in libero molestie, a scelerisque dolor gravida.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="portfolio" id="portfolio">
+            <h2 class="text-center">Portfolio</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                        <a href="#">
+                            <img src="images/port1.jpg" alt="graphic design book on dish" class="img-fluid"/>
+                        </a>    
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <a href="#">
+                            <img src="images/port2.jpg" alt="woman drawing" class="img-fluid"/>
+                        </a>    
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <a href="#">
+                            <img src="images/port3.jpg" alt="laptop and desktop pc" class="img-fluid"/>
+                        </a>    
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <a href="#">
+                            <img src="images/port4.jpg" alt="macbook" class="img-fluid"/>
+                        </a>    
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <a href="#">
+                            <img src="images/port5.jpg" alt="armachair" class="img-fluid"/>
+                        </a>    
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <a href="#">
+                            <img src="images/port6.jpg" alt="cup of coffee" class="img-fluid"/>
+                        </a>    
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <a href="#">
+                            <img src="images/port7.jpg" alt="graphic design in action" class="img-fluid"/>
+                        </a>    
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <a href="#">
+                            <img src="images/port8.jpg" alt="floor tiles" class="img-fluid"/>
+                        </a>    
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <a href="#">
+                            <img src="images/port9.jpg" alt="fashon design copybook " class="img-fluid"/>
+                        </a>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="blog" id="post">
+            <h2 class="text-center">Blog</h2>
+            <div class="container">
+                <div class="row">
+                    <!-- blog item start -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="images/posts/post-1.jpg" alt="man working in a kitchen" class="img-fluid"/> 
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Post title</h3>
+                                <p class="card-text">Duis pellentesque finibus faucibus. Morbi suscipit.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-link">
+                                    <a href="#" title="Spiega dove si va con questo link">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog item ends -->
+                    <!-- blog item start -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="images/posts/post-2.jpg" alt="leafs on iron" class="img-fluid"/> 
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Post title</h3>
+                                <p class="card-text">Duis pellentesque finibus faucibus. Morbi suscipit.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-link">
+                                    <a href="#" title="Spiega dove si va con questo link">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog item ends -->
+                    <!-- blog item start -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="images/posts/post-3.jpg" alt="bunnie" class="img-fluid"/> 
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Post title</h3>
+                                <p class="card-text">Duis pellentesque finibus faucibus. Morbi suscipit.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-link">
+                                    <a href="#" title="Spiega dove si va con questo link">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog item ends -->
+                    <!-- blog item start -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="images/posts/post-4.jpg" alt="graphic design cactus on table" class="img-fluid"/> 
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Post title</h3>
+                                <p class="card-text">Duis pellentesque finibus faucibus. Morbi suscipit.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-link">
+                                    <a href="#" title="Spiega dove si va con questo link">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog item ends -->
+                    <!-- blog item start -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="images/posts/post-5.jpg" alt="moon" class="img-fluid"/> 
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Post title</h3>
+                                <p class="card-text">Duis pellentesque finibus faucibus. Morbi suscipit.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-link">
+                                    <a href="#" title="Spiega dove si va con questo link">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog item ends -->
+                    <!-- blog item start -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="images/posts/post-6.jpg" alt="man walking in a street" class="img-fluid"/> 
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Post title</h3>
+                                <p class="card-text">Duis pellentesque finibus faucibus. Morbi suscipit.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="card-link">
+                                    <a href="#" title="Spiega dove si va con questo link">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog item ends -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="team" id="team">
+            <h2 class="text-center">Team</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 item">
+                        <img src="images/team/team-1.jpg" alt="Sara" class="img-fluid" />
+                        <div class="des">
+                            Sara
+                        </div>
+                        <span class="text-muted">Manager</span>
+                    </div>
+                    <div class="col-md-3 item">
+                        <img src="images/team/team-2.jpg" alt="Chris" class="img-fluid" />
+                        <div class="des">
+                            Chris
+                        </div>
+                        <span class="text-muted">Engineer</span>
+                    </div>
+                    <div class="col-md-3 item">
+                        <img src="images/team/team-3.jpg" alt="Jirad" class="img-fluid" />
+                        <div class="des">
+                            Jirad
+                        </div>
+                        <span class="text-muted">Front end developer</span>
+                    </div>
+                    <div class="col-md-3 item">
+                        <img src="images/team/team-4.jpg" alt="Marcela" class="img-fluid" />
+                        <div class="des">
+                            Marcela
+                        </div>
+                        <span class="text-muted">Back end developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact-form" id="contact">
+            <div class="container">
+                <form>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h2>Get in touch</h2>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your name" name="your-name"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your email" name="your-email"/>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Message" name="your-message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Send" class="btn btn-secondary btn-clock" />
+                            </div>
+                        </div> 
+                    </div>
+                </form>
+            </div>            
+        </div>
+        
+    </body>
+</html>

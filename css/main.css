@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+
+html, h1, h2, h3, h4, h5, h6, a{
+    font-family: "Raleway", "sans-serif";
+}
+
+.bg-light{
+    background: #f97300 !important;
+}
+
+.navbar-light, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.navbar-light .navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    background: #f4f4f4;
+    color: #f97300;
+}
+
+.navbar-light .navbar-toggler{
+    background: #fff;
+}
+
+/* START HEADER */
+
+.header{
+    background-image: url(../images/headerback.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    background: rgba(244, 244, 244, 0.79);
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    padding: 2em;
+}
+
+.description h1{
+    color: #f97300;
+}
+
+.description p{
+    color: #666;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.description button, .description button:hover{
+    background: #f97300;
+    color: #fff;
+    border: 1px solid #f97300;
+}
+
+
+/* END HEADER*/
+
+/* ABOUT SECTION START */
+
+
+.about{
+    margin: 4em 0;
+    padding: 1em;
+}
+
+.about img{
+    border-radius: 50%;
+}
+
+
+.about p{
+    color: #888;
+}
+
+.about .desc{
+    padding: 2em;
+    border-left: 2px solid #10828C;
+}
+
+.about .desc h2{
+    color: #10828C;
+}
+
+/* ABOUT SECTION END */
+
+
+/* PORTFOLIO SECTION START */
+
+.portfolio{
+    margin: 4em 0;
+}
+
+.portfolio h2{
+    color: #f93700;
+    margin: 2em;
+    margin-bottom: 2rem;
+}
+
+.portfolio img{
+    margin-bottom: 20px;
+}
+
+/* PORTFOLIO SECTION END */
+
+
+/* BLOG SECTION START */
+
+.blog{
+    margin: 4em 0;
+}
+
+.blog h2{
+    color: #f93700;
+    margin: 2em;
+    margin-bottom: 2rem;
+}
+
+.blog .card{
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px #ccc;
+}
+
+/* BLOG SECTION END */
+
+
+
+/* TEAM SECTION START */
+
+.team{
+    margin: 4em 0;
+}
+
+.team h2{
+    color: #f97300;
+    margin-top: 2em;
+    margin-bottom: 2rem;
+}
+
+.item .des{
+    background: #f97300;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 93%;
+    transition: .3s ease-in-out;
+}
+
+.team .item{
+    position: relative;
+}
+
+.team .item:hover .des{
+    height: 100%;
+    background: rgba(249, 115, 0, 0.5);
+    position: absolute;
+    width: 90%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0%;
+    
+}
+
+/* BLOG SECTION END */
+
+/* FORM SECTION START */
+
+.contact-form{
+    margin: 6em 0;
+}
+
+.contact-form h2{
+    color: #f97300;
+}
+
+.contact-form .btn-secondary{
+    background: #f97300;
+    color: #fff;
+}
+
+
+/* FORM SECTION START */
